@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JogoActivity">
+
+    <TextView
+        android:id="@+id/txtBoasVindas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtPalpite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Seu palpite"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnChutar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHUTAR" />
+
+    <TextView
+        android:id="@+id/txtDica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtTentativas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tentativas: 0" />
+
+    <Button
+        android:id="@+id/btnJogarNovamente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="JOGAR DE NOVO"
+        android:visibility="gone" />
+
+</LinearLayout>
